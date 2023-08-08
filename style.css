@@ -1,0 +1,81 @@
+style.css
+
+/* Header styling */
+h1 {
+  font-family: "Spectral", serif;
+  font-weight: 200;
+  text-align: center;
+  color: rgb(60, 60, 60);
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.dot-text {
+  margin-left: 30px;
+}
+
+.dot {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.red {
+  background-color: #990000;
+}
+
+.green {
+  background-color: #5B7742;
+}
+
+.yellow {
+  background-color: #FEBE00;
+}
+
+
+.brace {
+  position: relative;
+  display: inline-block;
+  margin: 50 20px;
+  top: 50px;
+}
+
+.brace-text-before {
+  font-size: 17px;
+  position: absolute;
+  top: 30px;
+  left: -100px;
+  color: #333;
+}
+
+.brace-opening {
+  font-size: 70px;
+}
+
+.brace-text-group {
+  position: relative;
+  left: 40px;
+  top: -110px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.brace-text-vertical {
+  font-size: 17px;
+  color: #555;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.bar-chart {
+  padding-left: 0;
+  margin-left: 20px;
+}
